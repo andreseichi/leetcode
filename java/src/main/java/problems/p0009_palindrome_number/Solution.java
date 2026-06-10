@@ -1,4 +1,4 @@
-package problems.p9_palindrome_number;
+package problems.p0009_palindrome_number;
 
 import java.util.ArrayList;
 

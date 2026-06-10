@@ -1,8 +1,8 @@
-package problems.p13_roman_to_integer;
+package problems.p0009_palindrome_number;
 
 public class Main {
     public static void main(String[] args) {
-        int result = Solution.romanToInt("MCMXCIV");
+        boolean result = Solution.isPalindrome(-121);
 
         System.out.println(result);
     }
