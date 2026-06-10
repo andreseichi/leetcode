@@ -1,0 +1,12 @@
+package problems.p2_add_two_numbers;
+
+public class Main {
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
+        ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
+
+        Solution solution = new Solution();
+
+        ListNode result = solution.addTwoNumbers(l1, l2);
+    }
+}
